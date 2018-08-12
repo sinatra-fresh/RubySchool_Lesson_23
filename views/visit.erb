@@ -1,22 +1,23 @@
 <h2>Записаться</h2>
 
-<form>
-  <div action="/visit" method="POST" class="form-group">
+<form action="/visit" method="POST" >
+  <div class="form-group">
     <label>Ваше имя</label>
     <input name="username" type="text" class="form-control" placeholder="Ваше имя">
     </div>
   
-    <div action="/visit" method="POST" class="form-group">
+    <div class="form-group">
       <label>Ваш телефон</label>
       <input name="phone" type="text" class="form-control" placeholder="Ваш телефон">
     </div>
 
-    <div action="/visit" method="POST" class="form-group">
+    <div class="form-group">
       <label>Когда Вас ждать?</label>
       <input name="datetime" type="text" class="form-control" placeholder="Введите дату и время">
     </div>
+
     <div class="form-group">
-      <label>Ваш мастер: </label>
+      <label>Ваш барбер: </label>
       <select name="master" class="form-control">
         <option>Walter</option>
         <option>Jessie</option>
@@ -26,7 +27,6 @@
       </select>
     </div>
 
-
-
   <button type="submit" class="btn btn-primary">Записаться</button>
+  
 </form>
